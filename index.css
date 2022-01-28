@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#f1f2ea;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width : 100vw;
+    height : 100vh;
+    border: 1px solid black;
+    
+}
+
+.camera{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    box-shadow: -2px 12px 8px 1px grey ;
+    background-color: white;
+}
+
+button{
+    text-align: center;
+    font-family: monospace;
+    font-variant: initial;
+    color: white;
+    font-weight: 300;
+    font-size:1rem;
+    width :15vw;
+    height :8vh;
+    background-color : #cc0000;
+    box-shadow: -2px 12px 8px 1px grey ;
+}
+.row{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+}
